@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 const STORAGE_KEY = "laundryq_auth";
 const ROLL_NO_PATTERN = /^\d{2}[A-Z]{3}\d{4}$/;
 const MIN_PASSWORD_LENGTH = 6;
