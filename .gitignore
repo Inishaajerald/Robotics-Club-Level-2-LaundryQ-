@@ -1,0 +1,20 @@
+# Dependencies (re-installed with npm install)
+node_modules/
+
+# Database (contains password hashes, never upload)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Build output
+dist/
+
+# Secrets and logs
+.env
+*.log
+
+# Editor / OS junk
+.vscode/
+.DS_Store
+Thumbs.db
