@@ -6,6 +6,33 @@ In many hostels, a handful of washing machines are shared by a whole floor. You 
 
 ---
 
+## Live demo
+
+| | Link |
+|---|---|
+| Frontend | https://robotics-club-level-2-laundry-q.vercel.app/|
+| Backend API | https://laundryq-api.onrender.com/api/machines |
+
+### Demo login
+
+| Role | Roll number | Password |
+|---|---|---|
+| Admin | `ADMIN` | `admin1234` |
+
+> The backend runs on a free server: the **first load can take about 50 seconds** while it wakes up. Its data also **resets when the server restarts**, so start with the steps below.
+
+### How to try it
+1. Open the frontend and log in as **ADMIN / admin1234**.
+2. In the **Residents** panel (at the bottom), paste a few roll numbers, e.g.
+   `26BCE0001, 26BCE0002, 26BCE0003, 26BCE0004` → **Add to list**.
+3. Log out, click **Create an account**, and register `26BCE0001` with any password (6+ characters).
+4. Register the others in separate windows (e.g. an **Incognito** window and another browser), since each window keeps its own login.
+5. Fill every machine with **1-minute** cycles, join the queue from another account, then collect a finished load. The machine is held for the person who queued.
+
+Please don't change the admin password, so other reviewers can still log in.
+
+---
+
 ## Features
 
 ### Core
